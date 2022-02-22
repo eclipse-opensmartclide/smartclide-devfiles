@@ -7,4 +7,4 @@ components:
   - type: chePlugin
     reference: 'https://github.com/eclipse-researchlabs/smartclide-ide-front-end-theme/raw/main/v3/plugins/unparallel/smartclide-theia-theme/v0.0.5/meta.yaml'
   - type: cheEditor
-    reference: 'https://github.com/eclipse-researchlabs/smartclide-devfiles/raw/main/meta.yaml'
+    reference: 'https://github.com/eclipse-researchlabs/smartclide-devfiles/raw/main/output/v3/plugins/eclipse/che-theia/next/meta.yaml'
