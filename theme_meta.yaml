@@ -1,0 +1,22 @@
+apiVersion: v2
+publisher: unparallel
+name: smartclide-theia-theme
+version: 0.0.5
+type: VS Code extension
+displayName: SmartCLIDE Theia Theme
+title: SmartCLIDE Theia Theme
+description: Theia Theme for the SmartCLIDE IDE
+icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
+repository:
+category: Theme
+spec:
+  #  containers:
+  #    - image:
+  #      memoryLimit:
+  #      memoryRequest:
+  #      cpuLimit:
+  #      cpuRequest:
+  extensions:
+    - https://github.com/eclipse-researchlabs/smartclide-ide-front-end-theme/releases/download/v0.0.5/smartclide-theia-theme-0.0.5.vsix
+#    - https://github.com/redhat-developer/vscode-yaml/releases/download/0.4.0/redhat.vscode-yaml-0.4.0.vsix
+#    - https://github.com/SonarSource/sonarlint-vscode/releases/download/1.16.0/sonarlint-vscode-1.16.0.vsix
