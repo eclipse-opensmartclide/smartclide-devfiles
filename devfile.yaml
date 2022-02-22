@@ -1,0 +1,10 @@
+apiVersion: 1.0.0
+metadata:
+  name: custom-theia-image
+components:
+  - id: redhat/vscode-yaml/latest
+    type: chePlugin
+  - type: chePlugin
+    reference: 'https://github.com/eclipse-researchlabs/smartclide-ide-front-end-theme/raw/main/v3/plugins/unparallel/smartclide-theia-theme/v0.0.5/meta.yaml'
+  - type: cheEditor
+    reference: 'https://github.com/eclipse-researchlabs/smartclide-devfiles/raw/main/meta.yaml'
