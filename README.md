@@ -1,4 +1,15 @@
-# smartclide-devfiles
+# Overview
+
+This repository contains the necessary files to launch a Che-Theia workspace with the SmartCLIDE extensions and plugins:
+
+- `devfile.yaml`: provides Che with the information needed to create the workspace
+- `editor_meta.yaml`: references the Che-Theia image that includes the desired extensions
+- `plugins.yaml`: describes the list of built-in plugins to be provided with the workspace
+
+# How To Use?
+
+The table below matches each release with the included plugins and extensions. To create and open a workspace,
+choose a release and click "Run in Che" in the last column of the corresponding row.
 
 | Release | Content | Launch |
 |---------|---------|--------|
