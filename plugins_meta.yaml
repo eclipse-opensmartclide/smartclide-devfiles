@@ -1,7 +1,7 @@
 apiVersion: v2
 publisher: unparallel
 name: smartclide-che-theia-plugins
-version: 0.0.5
+version: 0.0.1
 type: VS Code extension
 displayName: SmartCLIDE Che Theia Plugins
 title: SmartCLIDE Che Theia Plugins
