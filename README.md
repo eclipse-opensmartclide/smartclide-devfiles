@@ -4,12 +4,13 @@ This repository contains the necessary files to launch a Che-Theia workspace wit
 
 - `devfile.yaml`: provides Che with the information needed to create the workspace
 - `editor_meta.yaml`: references the Che-Theia image that includes the desired extensions
-- `plugins.yaml`: describes the list of built-in plugins to be provided with the workspace
+- `plugins_meta.yaml`: describes the list of built-in plugins to be provided with the workspace
 
 # How To Use?
 
 The table below matches each release with the included plugins and extensions. To create and open a workspace,
-choose a release and click "Run in Che" in the last column of the corresponding row.
+choose a release and click "Run in Che" in the last column of the corresponding row. In case you have not logged in to
+Eclipse Che, you will be asked to authenticate.
 
 | Release | Content | Launch |
 |---------|---------|--------|
