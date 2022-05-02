@@ -1,7 +1,7 @@
 apiVersion: v2
 publisher: unparallel
 name: smartclide-che-theia-plugins
-version: 0.0.1
+version: 0.0.2
 type: VS Code extension
 displayName: SmartCLIDE Che Theia Plugins
 title: SmartCLIDE Che Theia Plugins
@@ -12,3 +12,4 @@ category: Other
 spec:
   extensions:
     - https://github.com/eclipse-researchlabs/smartclide-ide-front-end-theme/releases/download/v0.0.5/smartclide-theia-theme-0.0.5.vsix
+    - https://github.com/eclipse-researchlabs/smartclide-perftestgen-theia/releases/download/v0.0.1/smartclide-perftestgen-theia-0.0.1.vsix
