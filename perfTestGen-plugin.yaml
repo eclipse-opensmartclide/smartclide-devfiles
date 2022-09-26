@@ -14,6 +14,10 @@ latestUpdateDate: '2021-04-22'
 spec:
   containers:
     - image: 'quay.io/eclipse/che-plugin-sidecar@sha256:974dd0a5ab7e075d7d344af2e8e2a2f80a069e8a5a4c9ffc2a57e421b62aa17a'
-      name: theia-master
+      name: perftest
+      args:
+        - sh
+        - '-c'
+        - '${PLUGIN_REMOTE_ENDPOINT_EXECUTABLE}'
   extensions:
     - 'https://github.com/eclipse-researchlabs/smartclide-perftestgen-theia/releases/download/v0.0.3-rc6/smartclide_perftestgen_theia.theia'
