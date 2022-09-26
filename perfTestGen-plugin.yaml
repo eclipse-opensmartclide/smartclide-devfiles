@@ -24,9 +24,9 @@ spec:
       cpuLimit: 1500m
       cpuRequest: 100m
       volumes:
-        - name: plugins
+        - name: myplugins
           mountPath: /plugins
-        - name: theia-local
+        - name: theia-shared
           mountPath: /home/theia/.theia
 
   extensions:
