@@ -19,5 +19,15 @@ spec:
         - sh
         - '-c'
         - '${PLUGIN_REMOTE_ENDPOINT_EXECUTABLE}'
+      mountSources: true
+      memoryLimit: 512M
+      cpuLimit: 1500m
+      cpuRequest: 100m
+      volumes:
+        - name: plugins
+          mountPath: /plugins
+        - name: theia-local
+          mountPath: /home/theia/.theia
+
   extensions:
     - 'https://github.com/eclipse-researchlabs/smartclide-perftestgen-theia/releases/download/v0.0.3-rc6/smartclide_perftestgen_theia.theia'
