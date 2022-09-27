@@ -22,11 +22,6 @@ spec:
       memoryLimit: 512M
       cpuLimit: 1500m
       cpuRequest: 100m
-      volumes:
-        - name: theia
-          mountPath: /home/theia/.theia
-        - name: shared-plugins
-          mountPath: /shared-plugins
 
   extensions:
-    - 'https://github.com/eclipse-researchlabs/smartclide-perftestgen-theia/releases/download/v0.0.3-rc6/smartclide_perftestgen_theia.theia'
+    - 'https://github.com/eclipse-researchlabs/smartclide-perftestgen-theia/releases/download/v0.0.3-rc2/smartclide_perftestgen_theia.theia'
