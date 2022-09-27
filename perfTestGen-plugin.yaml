@@ -12,7 +12,7 @@ repository: https://github.com/eclipse-researchlabs/smartclide-perftestgen-theia
 firstPublicationDate: "2021-04-27"
 spec:
   containers:
-    - image: 'ghcr.io/eclipse-researchlabs/smartclide/perftestgen_sidecar_che:2022-09-13'
+    - image: 'eclipse/che-remote-plugin-runner-java11:latest'
       name: perftest
       alias: perftest
       args:
