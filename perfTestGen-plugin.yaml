@@ -12,17 +12,12 @@ repository: https://github.com/eclipse-researchlabs/smartclide-perftestgen-theia
 firstPublicationDate: "2021-04-27"
 spec:
   containers:
-    - image: 'ghcr.io/eclipse-researchlabs/smartclide/perftestgen_sidecar_che:2022-09-13'
+    - image: 'davidgkairos/smartclide-test:0.0.1'
       name: perftest
       alias: perftest
-      args:
-        - sh
-        - '-c'
-        - '${PLUGIN_REMOTE_ENDPOINT_EXECUTABLE}'
-      mountSources: true
       memoryLimit: 512M
       cpuLimit: 1500m
       cpuRequest: 100m
 
   extensions:
-    - 'https://github.com/eclipse-researchlabs/smartclide-perftestgen-theia/releases/download/v0.0.3-rc6/smartclide_perftestgen_theia_javaversion.theia'
+    - 'https://github.com/eclipse-researchlabs/smartclide-perftestgen-theia/releases/download/v0.0.3-rc6/smartclide_perftestgen_theia.theia'
