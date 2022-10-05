@@ -15,10 +15,11 @@ spec:
     - image: 'davidgkairos/smartclide-test:0.0.1'
       name: perftest
       alias: perftest
-      args:
+      command:
         - sh
-        - '-c'
-        - '${PLUGIN_REMOTE_ENDPOINT_EXECUTABLE}'
+        - -c
+      args:
+        - ${PLUGIN_REMOTE_ENDPOINT_EXECUTABLE}
       mountSources: true
       memoryLimit: 512M
       cpuLimit: 1500m
