@@ -1,0 +1,15 @@
+apiVersion: v2
+publisher: Kairos Digital Solutions
+name: smartclide-interpreter-plugin
+version: latest
+type: Theia plugin
+category: Programming Languages
+displayName: SmartCLIDE Deployment interpreter/converter plugin
+title: SmartCLIDE Deployment interpreter/converter plugin
+description: Plug-in to convert between Jenkins/GitlabCI deployment descriptors
+icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
+repository: https://github.com/eclipse-researchlabs/smartclide-deployment-interpreter-theia
+firstPublicationDate: "2021-04-27"
+spec:
+  extensions:
+    - 'https://github.com/eclipse-researchlabs/smartclide-deployment-interpreter-theia/releases/download/v0.0.1-rc1/smartclide_pipeline_interpreter_plugin.theia'
