@@ -85,7 +85,7 @@ spec:
         secure: true
       public: true
   containers:
-    - image: 'ghcr.io/eclipse-researchlabs/smartclide/smartclide-che-theia:latest'
+    - image: 'ghcr.io/eclipse-opensmartclide/smartclide/smartclide-che-theia:latest'
       env:
         - name: THEIA_PLUGINS
           value: 'local-dir:///plugins'

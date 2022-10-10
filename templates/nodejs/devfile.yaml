@@ -22,7 +22,7 @@ components:
     alias: nodejs
     image: 'quay.io/eclipse/che-nodejs10-ubi:7.32.1'
   - type: cheEditor
-    reference: 'https://github.com/eclipse-researchlabs/smartclide-devfiles/raw/f819a1a514f8f02d3c902fe044096251c300c78f/templates/editor_meta.yaml'
+    reference: 'https://github.com/eclipse-opensmartclide/smartclide-devfiles/raw/f819a1a514f8f02d3c902fe044096251c300c78f/templates/editor_meta.yaml'
 commands:
   - name: download dependencies
     actions:
