@@ -11,5 +11,5 @@ repository:
 category: Other
 spec:
   extensions:
-    - https://github.com/eclipse-researchlabs/smartclide-ide-front-end-theme/releases/download/v0.0.5/smartclide-theia-theme-0.0.5.vsix
-    - https://github.com/eclipse-researchlabs/smartclide-perftestgen-theia/releases/download/v0.0.2/smartclide_perftestgen_theia.theia
+    - https://github.com/eclipse-opensmartclide/smartclide-ide-front-end-theme/releases/download/v0.0.5/smartclide-theia-theme-0.0.5.vsix
+    - https://github.com/eclipse-opensmartclide/smartclide-perftestgen-theia/releases/download/v0.0.2/smartclide_perftestgen_theia.theia
