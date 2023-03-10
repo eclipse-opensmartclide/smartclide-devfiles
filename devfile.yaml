@@ -5,6 +5,6 @@ components:
   - id: redhat/vscode-yaml/latest
     type: chePlugin
   - type: chePlugin
-    reference: 'https://github.com/eclipse-opensmartclide/smartclide-devfiles/raw/a81544eb8ce537c03285149e9611e95065f5d3cf/plugins_meta.yaml'
+    reference: 'https://github.com/eclipse-opensmartclide/smartclide-devfiles/raw/d970520a9443e821e5efa7fb4b67b39f34808895/plugins_meta.yaml'
   - type: cheEditor
-    reference: 'https://github.com/eclipse-opensmartclide/smartclide-devfiles/raw/a81544eb8ce537c03285149e9611e95065f5d3cf/editor_meta.yaml'
+    reference: 'https://github.com/eclipse-opensmartclide/smartclide-devfiles/raw/d970520a9443e821e5efa7fb4b67b39f34808895/editor_meta.yaml'
