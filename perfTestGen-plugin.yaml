@@ -11,15 +11,6 @@ icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
 repository: https://github.com/eclipse-researchlabs/smartclide-perftestgen-theia
 firstPublicationDate: "2021-04-27"
 spec:
-  containers:
-    - image: 'davidgkairos/smartclide-test:0.0.1'
-      name: perftest
-      alias: perftest
-      mountSources: true
-      memoryLimit: 512M
-      cpuLimit: 1500m
-      cpuRequest: 100m
-
   extensions:
     - 'https://github.com/eclipse-opensmartclide/smartclide-perftestgen-theia/releases/download/v0.0.3-rc5/smartclide_perftestgen_theia-0.0.1a.theia'
     
