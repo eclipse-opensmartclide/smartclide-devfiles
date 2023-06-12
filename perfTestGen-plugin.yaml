@@ -21,6 +21,5 @@ spec:
       cpuRequest: 100m
 
   extensions:
-    - 'https://github.com/eclipse-opensmartclide/smartclide-perftestgen-theia/releases/download/v0.0.3-rc5/smartclide_perftestgen_theia.theia
-'
+    - 'https://github.com/eclipse-opensmartclide/smartclide-perftestgen-theia/releases/download/v0.0.3-rc5/smartclide_perftestgen_theia-0.0.1a.theia'
     
