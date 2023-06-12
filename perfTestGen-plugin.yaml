@@ -15,16 +15,11 @@ spec:
     - image: 'davidgkairos/smartclide-test:0.0.1'
       name: perftest
       alias: perftest
-      command:
-        - sh
-        - -c
-      args:
-        - ${PLUGIN_REMOTE_ENDPOINT_EXECUTABLE}
       mountSources: true
       memoryLimit: 512M
       cpuLimit: 1500m
       cpuRequest: 100m
 
   extensions:
-    - 'https://github.com/eclipse-opensmartclide/smartclide-perftestgen-theia/releases/download/v0.0.3-rc6/smartclide-perftestgen-0.0.1.vsix'
+    - 'https://github.com/eclipse-opensmartclide/smartclide-perftestgen-theia/releases/download/v0.0.3-rc6/smartclide-perftestgen-0.0.1a.vsix'
     
